@@ -1,0 +1,140 @@
+.textbox{
+    float: none;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+}
+
+.textbox a{
+    color: gray;
+
+
+}
+ul li{
+    color: gray;
+    float: left;
+    width: 100px;
+    text-transform: capitalize;
+    list-style-type: none;
+    font-family: Gabriola;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: lightseagreen;
+    border-bottom: 1px solid lightseagreen;
+}
+
+b{
+    color: lightblue;
+    border-bottom: 2px solid lightseagreen;
+    font-weight: inherit;
+}
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png") ;
+}
+
+.cover{
+    border: 5px solid black;
+    text-align: center;
+    width: 1000px;
+    height: 450px;
+    position: absolute;
+    top: 20%;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+.subcover{
+    border-bottom: 1px solid none;
+    background: black;
+    width: 1000px;
+    height: 1300px;
+    opacity: 0.6;
+    border-radius: 8px;
+}
+
+.coverimage{
+    text-align: center;
+    justify-content: center;
+}
+
+img{
+    border-radius: 20px;
+    position: absolute;
+    left: 20%;
+    top: 2%;
+    margin: -10px -9px;
+    opacity: 0.9;
+}
+
+.text{
+    color: gray;
+    position: absolute;
+    top: 130%;
+    padding: 50px 10;
+}
+
+.soundframe{
+    left: 7%;
+}
+
+.soundplayer2{
+    padding-left: 50px;
+    font-size: 10px;
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+}
+
+.sound_a{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.sound_a_2{
+    color: #cccccc; text-decoration: none;
+}
+
+<!--Biography page -->
+
+.biocover{
+    border: 10px solid black;
+    text-align: center;
+    width: 700px;
+    height: 800px;
+    position: absolute;
+    top: 50%;
+    border-radius: 8px;
+}
+
+
+.biosubcover{
+    border-bottom: 1px solid none;
+    background: black;
+    position: absolute;
+    float: inherit;
+    width: 700px;
+    height: 600px;
+    opacity: 0.9;
+    left: 20%;
+    top: 20%;
+    border-radius: 8px;
+}
+
+.biocoverimage{
+    top: 30%;
+    left: 35%;
+    transition: width 2s;
+}
